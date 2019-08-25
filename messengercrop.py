@@ -54,7 +54,7 @@ for filename in os.listdir(source_path):
     image = source_path + filename
     
     if filename[:3] == "rtc": # if image is a screenshot
-        print(image) # usefull for debugging
+        print(image) # useful for debugging
 
         # this line will need to change based on image resolution
         # currently just takes left half of image, moves to cropped 
